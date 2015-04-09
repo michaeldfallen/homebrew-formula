@@ -8,6 +8,8 @@ class Butler < Formula
   head 'https://github.com/michaeldfallen/butler.git'
 
   def install
-    bin.install 'butler' => 'butler'
+    libexec.install 'butler'
+    libexec.install 'butler-base.sh'
+    bin.install_symlink libexec/'butler'
   end
 end
