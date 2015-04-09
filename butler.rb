@@ -3,7 +3,7 @@ require 'formula'
 class Butler < Formula
   homepage 'https://github.com/michaeldfallen/butler'
   url 'https://github.com/michaeldfallen/butler/archive/0.3.tar.gz'
-  sha1 '7bf7654fe08e0067fa0e87fd93a5ed4317372088'
+  sha1 '5e91699d4396b864146ac4e3a49be93930663065'
 
   head 'https://github.com/michaeldfallen/butler.git'
 
