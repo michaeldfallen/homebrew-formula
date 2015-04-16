@@ -14,5 +14,9 @@ class Butler < Formula
     libexec.install 'complete.bash'
     libexec.install 'init.sh'
     bin.install_symlink libexec/'butler'
+
+    ohai "To enable completion add:"
+    ohai "  source \"$(butler --init-completion)\""
+    ohai "To your ~/.bashrc or ~/.zshrc"
   end
 end
