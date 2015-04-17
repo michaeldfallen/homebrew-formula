@@ -7,6 +7,8 @@ class Butler < Formula
 
   head 'https://github.com/michaeldfallen/butler.git'
 
+  depends_on 'coreutils'
+
   def install
     libexec.install 'butler'
     libexec.install 'butler-base.sh'
