@@ -2,8 +2,8 @@ require 'formula'
 
 class Butler < Formula
   homepage 'https://github.com/michaeldfallen/butler'
-  url 'https://bintray.com/artifact/download/michaelallen/homebrew-releases/butler-0.6.tar.gz'
-  sha1 '5189bfa0d46a99c3ea9b18ee509dfadcc8b9004f'
+  url 'https://bintray.com/artifact/download/michaelallen/homebrew-releases/butler-0.7.tar.gz'
+  sha1 '3f0d08a1fa46133ca3acf33d992fc43f2be39438'
 
   head 'https://github.com/michaeldfallen/butler.git'
 
