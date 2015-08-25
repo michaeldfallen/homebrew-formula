@@ -8,6 +8,8 @@ class GitRadar < Formula
 
   head 'https://github.com/michaeldfallen/git-radar.git'
 
+  depends_on 'coreutils'
+
   def install
     libexec.install 'git-radar'
     libexec.install 'radar-base.sh'
