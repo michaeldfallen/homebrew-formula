@@ -3,8 +3,8 @@ require 'formula'
 # Homebrew formula that installs git-radar
 class GitRadar < Formula
   homepage 'https://github.com/michaeldfallen/git-radar'
-  url 'https://github.com/michaeldfallen/git-radar/archive/0.2.tar.gz'
-  sha1 'ed09c09d0d2d5e502b24696cf00c5cb3e401cc92'
+  url 'https://github.com/michaeldfallen/git-radar/releases/download/0.3/git-radar-0.3.tar.gz'
+  sha1 'bc8795281f2f3f7c334f13c15af75b5ef451d314'
 
   head 'https://github.com/michaeldfallen/git-radar.git'
 
