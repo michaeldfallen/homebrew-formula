@@ -3,7 +3,7 @@ require 'formula'
 class Butler < Formula
   homepage 'https://github.com/michaeldfallen/butler'
   url 'https://bintray.com/artifact/download/michaelallen/homebrew-releases/butler-0.7.tar.gz'
-  sha1 '3f0d08a1fa46133ca3acf33d992fc43f2be39438'
+  sha256 '24bfc1667880ea4488671cb6992372f8e19da9fee60218c9edd522104fcb3478'
 
   head 'https://github.com/michaeldfallen/butler.git'
 
