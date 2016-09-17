@@ -21,10 +21,10 @@ class GitRadar < Formula
     ohai "Bash and Zsh installation
 
 Bash
-  export PS1=\"\W\$(git-radar --bash --fetch) \"
+  export PS1=\"\\W\\\$(git-radar --bash --fetch) \"
 
 Zsh
-  export PROMPT=\"%1/%\$(git-radar --zsh --fetch) \"
+  export PROMPT=\"%1/%\\\$(git-radar --zsh --fetch) \"
 "
   end
 end
